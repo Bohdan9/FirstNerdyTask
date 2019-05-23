@@ -1,5 +1,58 @@
-.my-flex-container{
-    display: flex;
-    flex-direction: row;
-    background: green;
+* {
+    box-sizing: border-box;
 }
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+#main {
+    display: flex;
+    flex: 1;
+}
+#main > article {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+
+}
+#main > nav
+ {
+    flex: 0 0  15vw;
+    background: beige;
+}
+#main > nav {
+    order: -1;
+}
+header{
+    background: yellowgreen;
+    height: 5vh;
+}
+footer {
+    background: yellowgreen;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+
+}
+header, footer, article, nav, aside {
+    padding: 1em;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    padding: 1vw;
+
+    position: fixed;
+    list-style-type: none;
+}
+li {
+    padding: 1vw;
+}
+
+
