@@ -15,12 +15,10 @@ body {
     flex: 1;
     display: flex;
     justify-content: center;
-
-
 }
-#main > nav
- {
-    flex: 0 0  15vw;
+.site-bar {
+    width: 300px;
+    height: 100%;
     background: beige;
 }
 #main > nav {
@@ -37,7 +35,7 @@ footer {
     justify-content: center;
 
 }
-header, footer, article, nav, aside {
+header, footer, article, nav {
     padding: 1em;
 }
 
@@ -45,14 +43,43 @@ header, footer, article, nav, aside {
     display: flex;
     justify-content: space-between;
 }
-.links{
-    padding: 1vw;
-
-    position: fixed;
+.links > li{
+    /*padding: 1vw;*/
     list-style-type: none;
 }
 li {
-    padding: 1vw;
+    margin: 15px 20px;
+   /* padding: 1vw;*/
 }
+.content{
+    width: 100%;
+}
+
+.content > h1{
+    text-align: center;
+}
+.cards-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card-item{
+    width: 300px;
+    margin: 15px;
+}
+.card-item > img{
+    width: 100%;
+
+}
+.card-item > .card-title{
+    text-align: center;
+}
+
+
+
+
+
+
 
 
